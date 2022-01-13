@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "cstdio": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "unordered_map": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "iterator": "cpp"
+    }
+}

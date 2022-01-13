@@ -1,0 +1,24 @@
+EXENAME = test_finalproj
+OBJS = airport.o BST.o main.o pagerank.o parser.o 
+
+CXX = clang++
+
+all: main.o airport.o  pagerank.o parser.o 
+
+main.o: main.cpp airport.h pagerank.h parser.h 
+	$(CXX) main.cpp 
+
+airport.o: airport.cpp airport.h BST.h
+	$(CXX) airport.cpp
+
+pagerank.o : pagerank.cpp 
+	$(CXX) pagerank.cpp 
+
+parser.o   : parser.cpp airport.h 
+	$(CXX) parser.cpp
+
+target: dependencies
+	    action 
+
+clean:
+	 rm *o output
