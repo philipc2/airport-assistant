@@ -1,4 +1,4 @@
-# Airport Assistant - CS 225 Final Project
+# Airport Assistant
 
 ## Contributors
 * Philip Chmielowiec - philipc2
